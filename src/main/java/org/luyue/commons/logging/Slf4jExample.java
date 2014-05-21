@@ -10,7 +10,7 @@ public class Slf4jExample {
         // if using slf4j simple implementation, set logger level to TRACE
         // System.setProperty(org.slf4j.impl.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "TRACE");
 
-        // if using slf4j Java logging implementation, set logger level to TRACE
+        // if using slf4j Java logging implementation, specify path to the config file
         // System.setProperty("java.util.logging.config.file", "<Path_to_logging.properties>");
 
         Logger logger = LoggerFactory.getLogger(Slf4jExample.class);
